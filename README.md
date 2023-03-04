@@ -26,3 +26,7 @@
 - [ ] Dark Mode 
 - [ ] Scroll Bar 
 
+
+<b>Others</b>
+- [ ] Host On Liara  
+
