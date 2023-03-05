@@ -6,6 +6,8 @@
 - Typescript
 - Pinia
 - Tailwind css
+- Postcss
+- Autoprefixer
 
 
 ## Roadmap
@@ -33,4 +35,4 @@
 
 <b>Others</b>
 - [x] Host On Liara  
-
+- [ ] Liara CI/CD on Main Branch 
