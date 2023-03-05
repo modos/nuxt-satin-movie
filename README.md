@@ -19,7 +19,7 @@
 <b>Components</b>
 
 - [ ] Header
-- [ ] Footer Copyrght
+- [ ] Footer Copyright
 - [ ] Genres Box in Left Sidebar
 - [ ] Top Views Box in Left Sidebar
 - [ ] Posts Items in Index Page
