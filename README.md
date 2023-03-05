@@ -1,5 +1,6 @@
 # Satin Movie - Built With Nuxt v.3
 <b>Description:</b> This Project is based on [filmsara](https://filmsara.info/) template.<br>
+<b>Demo: https://satin-movie.iran.liara.run<br>
 <b>Tools:</b>
 - Nuxt 3 (composition api)
 - Typescript
@@ -9,8 +10,11 @@
 
 ## Roadmap
 
+<b>Layout & Pages</b> 
+- [ ] Main Page
+- [ ] Single Movie Page
 
-<b>Layout & Components</b>
+<b>Components</b>
 
 - [ ] Header
 - [ ] Footer Copyrght
@@ -28,5 +32,5 @@
 
 
 <b>Others</b>
-- [ ] Host On Liara  
+- [x] Host On Liara  
 
