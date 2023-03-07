@@ -2,7 +2,5 @@
 import './src/index.css'
 </script>
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  <TheMain/>
 </template>
