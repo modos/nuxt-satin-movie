@@ -8,7 +8,11 @@
 - Tailwind css
 - Postcss
 - Autoprefixer
+- Sass
 
+## Workflow
+For Every Component, I Create a New Branch With Prefix of 'component/*', for Layouts, It Starts with 'layout/*' and so on.
+After task is completed, I Merge it With Main Branch.
 
 ## Roadmap
 
