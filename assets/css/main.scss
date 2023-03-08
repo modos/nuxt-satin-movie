@@ -3,12 +3,24 @@
 @tailwind utilities;
 
 .header {
+    font-size: 12px;
     &__container {
         max-width: 1250px;
-        __logo {
+        &__logo {
             img {
                 max-width: 150px;
                 max-height: 50px;
+            }
+        }
+        &__menu{
+            &__buttons {
+                &__signup {
+                    color:#6d6d6d;
+
+                    &:hover {
+                        color: #ff4757;
+                    }
+                }
             }
         }
     }

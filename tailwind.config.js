@@ -18,11 +18,17 @@ module.exports = {
       indigo: colors.indigo,
       yellow: colors.yellow,
       blue: colors.blue,
-      red: colors.red
+      red: colors.red,
+      button: '#ff4757',
+      buttonHoverBackground: '#f1f1f1',
+      buttonHoverText: '#252f40'
     },
     extend: {
       boxShadow: {
         'header': '0 2px 10px rgba(160,178,200,.2)',
+      },
+      padding: {
+        'button': '6px 14px 7px 14px'
       }
     },
   },
