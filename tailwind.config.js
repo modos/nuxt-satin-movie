@@ -17,8 +17,14 @@ module.exports = {
       emerald: colors.emerald,
       indigo: colors.indigo,
       yellow: colors.yellow,
+      blue: colors.blue,
+      red: colors.red
     },
-    extend: {},
+    extend: {
+      boxShadow: {
+        'header': '0 2px 10px rgba(160,178,200,.2)',
+      }
+    },
   },
   plugins: [],
 }

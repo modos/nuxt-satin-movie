@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+    &__container {
+        max-width: 1250px;
+        __logo {
+            img {
+                max-width: 150px;
+                max-height: 50px;
+            }
+        }
+    }
+    
+}
