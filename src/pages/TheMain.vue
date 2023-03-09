@@ -2,4 +2,5 @@
 </script>
 <template>
     <TheHeader/>
+    <Gallery/>
 </template>
