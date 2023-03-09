@@ -10,5 +10,5 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-    components: ['~/src/pages', '~/src/components/global' ]
+    components: ['~/src/pages', '~/src/components/global', '~/src/components' ]
 })
