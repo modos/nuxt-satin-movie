@@ -6,6 +6,7 @@
     font-size: 12px;
     &__container {
         max-width: 1250px;
+        padding-inline: 15px;
         &__logo {
             img {
                 max-width: 150px;
@@ -20,6 +21,18 @@
                     &:hover {
                         color: #ff4757;
                     }
+                }
+                
+                &__svg-container {
+                    padding: 8px;
+                    border-radius: 50%;
+                    &:hover {
+                        background-color: #efefef;
+                    }
+
+                }
+                svg {
+                    color: #667378;
                 }
             }
         }
