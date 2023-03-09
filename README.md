@@ -28,7 +28,7 @@ After task is completed, I Merge it With Main Branch.
 - [ ] Top Views Box in Left Sidebar
 - [ ] Posts Items in Index Page
 - [ ] Go to Top Button 
-- [ ] Posts Gallery on Top of Main Page
+- [x] Posts Gallery on Top of Main Page
 - [ ] Tags Box in Footer
 - [ ] Pagination
 
