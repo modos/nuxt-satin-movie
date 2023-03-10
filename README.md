@@ -23,13 +23,13 @@ After task is completed, I Merge it With Main Branch.
 <b>Components</b>
 
 - [ ] Header
-- [ ] Footer Copyright
+- [x] Footer Copyright
 - [ ] Genres Box in Left Sidebar
 - [ ] Top Views Box in Left Sidebar
 - [ ] Posts Items in Index Page
 - [ ] Go to Top Button 
 - [x] Posts Gallery on Top of Main Page
-- [ ] Tags Box in Footer
+- [x] Tags Box in Footer
 - [ ] Pagination
 
 <b>Styles</b>
