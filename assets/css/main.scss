@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    &__container {
+        flex: 1;
+    }
+}
+
 .header {
     font-size: 12px;
     &__container {
@@ -80,6 +91,39 @@
             p {
                 font-size: 11px;
             }
+        }
+    }
+}
+
+.footer {
+    &__tag-box {
+        &__container {
+            max-width: 1250px;
+
+            &__body {
+                a {
+                    font-size: 13px !important;
+                    direction: rtl;
+                    transition: all 0.35s;
+                    &::before {
+                        content: '#';
+                        margin-left: 2px;
+                        color: #777;
+                    }
+
+                    &:hover {
+                        color: #fed330;
+                    }
+                }
+            }
+        }
+    }
+    &__container {
+        max-width: 1250px;
+
+        span {
+            font-size: 12px;
+            color: #ccc;
         }
     }
 }

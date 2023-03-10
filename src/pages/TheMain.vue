@@ -1,6 +1,11 @@
 <script setup lang="ts">
 </script>
 <template>
-    <TheHeader/>
-    <Gallery/>
+    <div class="main">
+        <TheHeader/>
+    <div class="main__container">
+        <Gallery/>
+    </div>
+    <TheFooter/>
+    </div>
 </template>

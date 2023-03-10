@@ -21,7 +21,9 @@ module.exports = {
       red: colors.red,
       button: '#ff4757',
       buttonHoverBackground: '#f1f1f1',
-      buttonHoverText: '#252f40'
+      buttonHoverText: '#252f40',
+      footerBackground: '#282d33',
+      footerTagBoxBackground: '#23282d'
     },
     extend: {
       boxShadow: {
