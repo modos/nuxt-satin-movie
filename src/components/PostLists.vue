@@ -1,0 +1,3 @@
+<template>
+    posts list
+</template>

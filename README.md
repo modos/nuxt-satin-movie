@@ -19,12 +19,13 @@ After task is completed, I Merge it With Main Branch.
 <b>Layout & Pages</b> 
 - [ ] Main Page
 - [ ] Single Movie Page
+- [ ] Sidebar
 
 <b>Components</b>
 
 - [ ] Header
 - [x] Footer Copyright
-- [ ] Genres Box in Left Sidebar
+- [x] Genres Box in Left Sidebar
 - [ ] Top Views Box in Left Sidebar
 - [ ] Posts Items in Index Page
 - [ ] Go to Top Button 
@@ -35,6 +36,7 @@ After task is completed, I Merge it With Main Branch.
 <b>Styles</b>
 - [ ] Dark Mode 
 - [ ] Scroll Bar 
+- [ ] Add Font
 
 
 <b>Others</b>
