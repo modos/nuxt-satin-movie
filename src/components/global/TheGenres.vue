@@ -15,7 +15,7 @@
                 <a href="#">سریال</a>
             </div>
         </div>
-        <div class="genres__body">
+        <div class="genres__body float-left bg-white-500">
             <ul>
                 <li><span>4</span><span>انیمیشن</span></li>
                 <li><span>4</span><span>انیمیشن</span></li>

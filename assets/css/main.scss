@@ -174,7 +174,6 @@
     }
 
     &__body {
-        background-color: red;
 
         ul {
             display: flex;
@@ -208,6 +207,52 @@
                     span:first-child {
                         opacity: 0;
                         transform: translateX(3px);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.tops {
+    &__body {
+        &__list-item {
+
+            &:hover {
+                background-color: #f3f5f9;
+
+                & .tops__body__list-item__rate {
+                    &__rate {
+                        span {
+                            color: red;
+                        }
+                    }
+                }
+            }
+
+            &__thumb {
+                img {
+                    border-radius: 8px;
+                }
+            }
+
+            &__body {
+                p {
+                    font-size: 10px;
+                    color: #323232;
+                    direction: rtl;
+                }
+
+                &__rate {
+                    span {
+                        font-size: 12px;
+                    }
+                }
+
+                &__views {
+                    span {
+                        direction: rtl;
+                        font-size: 12px;
                     }
                 }
             }
