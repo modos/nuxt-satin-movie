@@ -221,12 +221,19 @@
             &:hover {
                 background-color: #f3f5f9;
 
-                & .tops__body__list-item__rate {
-                    &__rate {
-                        span {
+                .tops__body__list-item__body__rate{
+                        & span {
                             color: red;
                         }
-                    }
+                    
+                }
+
+                .tops__body__list-item__thumb {
+                    img {
+                        border-radius: 8px;
+                        opacity: .5;
+                        transform: scale(.9);
+                      }
                 }
             }
 
@@ -244,6 +251,7 @@
                 }
 
                 &__rate {
+                    max-height: 35px;
                     span {
                         font-size: 12px;
                     }
