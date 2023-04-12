@@ -26,7 +26,7 @@ After task is completed, I Merge it With Main Branch.
 - [ ] Header
 - [x] Footer Copyright
 - [x] Genres Box in Left Sidebar
-- [ ] Top Views Box in Left Sidebar
+- [x] Top Views Box in Left Sidebar
 - [ ] Posts Items in Index Page
 - [ ] Go to Top Button 
 - [x] Posts Gallery on Top of Main Page
