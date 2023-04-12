@@ -106,6 +106,7 @@
 }
 
 .footer {
+    margin-top: 24px;
     &__tag-box {
         &__container {
             max-width: 1250px;
@@ -221,11 +222,11 @@
             &:hover {
                 background-color: #f3f5f9;
 
-                .tops__body__list-item__body__rate{
-                        & span {
-                            color: red;
-                        }
-                    
+                .tops__body__list-item__body__rate {
+                    & span {
+                        color: red;
+                    }
+
                 }
 
                 .tops__body__list-item__thumb {
@@ -233,7 +234,7 @@
                         border-radius: 8px;
                         opacity: .5;
                         transform: scale(.9);
-                      }
+                    }
                 }
             }
 
@@ -252,6 +253,7 @@
 
                 &__rate {
                     max-height: 35px;
+
                     span {
                         font-size: 12px;
                     }
@@ -262,6 +264,47 @@
                         direction: rtl;
                         font-size: 12px;
                     }
+                }
+            }
+        }
+    }
+}
+
+.posts-list-item {
+    background: #fff;
+    box-shadow: 0 5px 25px rgba(160, 178, 200, .2);
+
+    &__container {
+        &__body {
+            &__actions {
+                button:first-child {
+                    color: #fff !important;
+                    background: #fbc531 !important;
+                    border-color: #fbc531 !important;
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 50%;
+                    margin-right: 5px;
+                    outline: 0;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                }
+                button:last-child {
+                    width: 32px;
+                    height: 32px;
+                    background: #0000008c;
+                    color: #fff;
+                    border-radius: 50%;
+                    margin-right: 5px;
+                    border: 0;
+                    outline: 0;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                  
                 }
             }
         }
