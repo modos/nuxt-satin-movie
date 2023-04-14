@@ -1,9 +1,9 @@
 <template>
     <div class="posts-list-item flex flex-col">
         <div class="flex flex-row-reverse justify-between p-2">
-            <p>
+            <h2 style="direction: rtl;" class="text-xl">
                 دانلود فیلم Jesus Revolution 2023 انقلاب عیسی
-            </p>
+            </h2>
             <div class="posts-list-item__container__body__actions flex flex-row-reverse">
                 <button type="button" class="fm-overlay-item addTo fm-post-10391" data-nonce="ab7464d254"
                     data-toggle="tooltip" data-placement="top" title="افزودن به لیست تماشا"
