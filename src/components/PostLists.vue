@@ -26,9 +26,9 @@
         </div>
         <div class="flex flex-row-reverse mt-5">
             <div class="posts-list-item__container flex flex-row px-2 basis-3/4">
-                <div class="posts-list-item__container__body flex flex-row-reverse justify-between w-full">
-                   <div class="posts-list-item__container__body__rating">
-                    <a class="flex flex-row items-center gap-1" style="direction: rtl;" rel="nofollow noreferrer">
+                <div class="posts-list-item__container__body flex flex-col w-full">
+                   <div class="posts-list-item__container__body__rating w-full">
+                    <a class="flex flex-row items-center gap-1 w-full" style="direction: rtl;" rel="nofollow noreferrer">
                         <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="48px" height="48px"
                                 style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
                                 xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -65,6 +65,39 @@
                         <div>میانگین رای 207 نفر</div>
                     </a>
                    </div>
+                    <div>
+                        <ul class="posts-list-item__container__body__list">
+                            <li class="posts-list-item__container__body__list__item">
+                                <strong class="text-dark-blue">ژانر</strong>
+                                <i class="separator"></i>
+                                <div class="posts-list-item__container__body__list__item__genres">
+                                    <a href="#" rel="tag">اکشن</a> ,
+                                    <a href="#" rel="tag">کمدی</a> ,
+                                    <a href="#" rel="tag">ماجراجویی</a>
+                                </div>
+                            </li>
+                            <li class="posts-list-item__container__body__list__item">
+                                <strong class="text-dark-blue">سال انتشار</strong>
+                                <i class="separator"></i>
+                                <span>2023</span>
+                            </li>
+                            <li class="posts-list-item__container__body__list__item">
+                                <strong class="text-dark-blue">محصول</strong>
+                                <i class="separator"></i>
+                                <span>آمریکا</span>
+                            </li>
+                            <li class="posts-list-item__container__body__list__item">
+                                <strong class="text-dark-blue">زبان</strong>
+                                <i class="separator"></i>
+                                <span>انگلیسی</span>
+                            </li>
+                            <li class="posts-list-item__container__body__list__item">
+                                <strong class="text-dark-blue">مدت زمان</strong>
+                                <i class="separator"></i>
+                                <span class="w-full dir">1 ساعت و 46 دقیقه</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="posts-list-item__thumbnail basis-1/4 flex flex-col justify-center items-center">
@@ -75,3 +108,5 @@
             </div>
     </div>
 </div></template>
+<script setup lang="ts">
+</script>
