@@ -307,6 +307,39 @@
                   
                 }
             }
+            &__list {
+                &__item {
+                    display: flex;
+                    flex-direction: row-reverse;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 16px;
+
+                    span {
+                        direction: rtl;
+                    }
+                    strong {
+                        background-color: #f6f8f9;
+                        color: #696c72;
+                        padding: 6px 10px;
+                        border-radius: 50px;
+                        font-size: 12px;
+                        min-width: 90px;
+                        text-align: center;
+                    }
+                    i {
+                        width: 100%;
+                       display: block;
+                        background: #f0f4f6;
+                        height: 1px;
+                        margin: 0 20px;
+                    }
+
+                    &__genres {
+                        display: flex;
+                    }
+                }
+            }
         }
     }
 
