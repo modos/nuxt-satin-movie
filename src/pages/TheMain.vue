@@ -11,7 +11,10 @@
                 <TheGenres class="w-full"/>
             <TheTops/>
             </div>
-        <PostLists class="basis-3/4"/>
+            <div class="basis-3/4">
+                <PostLists class="basis-3/4"/>
+                <Pagination class="basis-3/4"/>
+            </div>
         </div>
     </div>
     <TheFooter/>
